@@ -16,3 +16,7 @@ supabase/.branches/
 # 원본 전달 파일 (prototype/, db/seed/ 에 같은 내용이 있음)
 ktx-webapp-kit.zip
 KTX*.html
+
+.vercel
+.env*
+!.env.example
