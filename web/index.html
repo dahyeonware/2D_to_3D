@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KTX 장비 위치·연결 관계 3D 시각화</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- 사내망에서 막히면 시스템 글꼴로 대체됨 (WORK_ORDER 9-6: web/public/fonts 로 로컬 포함 권장) -->
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">KTX</div>
+      <h1>장비 위치·연결 관계 시각화<small id="brandSub">KTX-산천 10량 편성 · 2D 도면 ↔ 3D 연동 (가상 데이터)</small></h1>
+    </div>
+    <div class="search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9fb3d9" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+      <input id="search" placeholder="장비 ID·이름 검색 (예: TCMS, T3-DCU)" autocomplete="off">
+      <div class="results" id="results"></div>
+    </div>
+    <label class="ctl">차량 <select id="fCar"></select></label>
+    <label class="ctl">상태 <select id="fStatus"><option value="ALL">전체</option><option>정상</option><option>주의</option><option>고장</option></select></label>
+    <div class="sep"></div>
+    <div class="chips" id="fCats"></div>
+    <div class="sep"></div>
+    <div class="chips">
+      <button class="chip on" id="tWired"><i style="background:#56ccf2"></i>유선</button>
+      <button class="chip on" id="tWireless"><i style="background:#c77dff"></i>무선</button>
+    </div>
+    <div class="spacer"></div>
+    <span class="live" id="live" title="실시간 반영 연결 상태 (SSE)"><i></i>실시간</span>
+    <button class="btn" id="btnLegend">범례</button>
+  </header>
+
+  <div class="scenbar" id="scenbar">
+    <span class="lbl">데모 시나리오</span>
+    <button class="scen" data-s="1"><b>1</b>PC1 TCMS 주제어기 → 전체 열차 제어망</button>
+    <button class="scen" data-s="2"><b>2</b>MC1 주변환장치 고장 → 영향 장비·차량</button>
+    <button class="scen" data-s="3"><b>3</b>LTE-R 무선 경로 (기지국 → 차상 → TCMS)</button>
+    <button class="scen" data-s="4"><b>4</b>T3 출입문 이상 → 제어기·전원 경로 추적</button>
+    <button class="scen" data-s="5"><b>5</b>장치 간 문제 2건 → 직접 연결 / 비연결 구분</button>
+    <button class="btn" id="btnReset" style="margin-left:4px">초기화</button>
+  </div>
+
+  <div class="main">
+    <section class="pane">
+      <div class="panehead">
+        <span class="t">2D 도면</span>
+        <div class="tabs" id="viewTabs"><button class="on" data-v="plan">평면도</button><button data-v="side">측면도</button></div>
+        <div class="spacer"></div>
+        <button class="iconbtn" id="zIn" title="확대">+</button>
+        <button class="iconbtn" id="zOut" title="축소">−</button>
+        <button class="iconbtn" id="zFit" title="전체 보기">⤢</button>
+      </div>
+      <div class="minimap"><svg id="minimap" preserveAspectRatio="none"></svg></div>
+      <div class="drawing" id="drawing">
+        <svg id="svg2d"><g id="vp"></g></svg>
+        <div class="titleblock">
+          <div class="h">장비 배치 및 연결 계통도</div>
+          <div class="k">차종</div><div>KTX-산천 10량</div>
+          <div class="k">도면번호</div><div id="tbNo"></div>
+          <div class="k">도면</div><div id="tbView">평면도 (TOP)</div>
+          <div class="k">축척</div><div id="tbScale"></div>
+        </div>
+        <div class="hint">휠: 확대/축소 · 드래그: 이동 · 클릭: 장비 선택 (다시 클릭: 선택 해제) · 확대 시 실제 크기 외곽선 표시 (평면도 점선 = 바닥 아래 장비)</div>
+      </div>
+    </section>
+    <div class="gutter" data-g="1" title="드래그: 크기 조절 · 더블클릭: 기본값"></div>
+    <section class="pane">
+      <div class="panehead">
+        <span class="t">3D 차량 뷰<span id="h3d">전체 편성</span></span>
+        <div class="spacer"></div>
+        <button class="iconbtn" id="b3dFit" title="전체 보기">⤢</button>
+      </div>
+      <div class="view3d" id="view3d">
+        <div class="carbtns" id="carBtns"></div>
+        <div class="banner" id="banner"></div>
+        <button class="rangebtn" id="btnRange" title="무선 송신·서비스 범위를 파동으로 표시"><svg width="16" height="16" viewBox="-12 -12 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle r="2"/><path d="M-5 -5a7 7 0 0 0 0 10M5 -5a7 7 0 0 1 0 10M-8.5 -8.5a12 12 0 0 0 0 17M8.5 -8.5a12 12 0 0 1 0 17"/></svg><span>무선 범위 보기</span></button>
+        <div class="depth"><span>연결 깊이</span><input type="range" id="depth" min="1" max="3" value="1"><output id="depthOut">1-hop</output></div>
+        <div class="legendbox hidden" id="legend"></div>
+      </div>
+    </section>
+    <div class="gutter" data-g="2" title="드래그: 크기 조절 · 더블클릭: 기본값"></div>
+    <aside class="panel">
+      <div class="scroll" id="panel"></div>
+      <div class="panelfoot">가상 데이터 · 공개 자료 참고 대략값이며 실제 차량 도면과 다릅니다.</div>
+    </aside>
+  </div>
+</div>
+<div class="tooltip" id="tip"></div>
+<div class="modal" id="manual"><div class="mbox"><button class="mclose" id="manClose" title="닫기">✕</button><div id="manBody"></div></div></div>
+<div class="toast" id="toast"></div>
+<div class="modal" id="keyModal"><div class="mbox keybox">
+  <form autocomplete="off">
+    <h2 style="margin:0 0 6px">관리 키 입력</h2>
+    <div class="note">이 배포본은 저장(정비 내역·상태·장치 간 문제)이 보호되어 있습니다. 관리 키를 입력하면 이 탭을 닫을 때까지 기억합니다.</div>
+    <input type="password" name="key" placeholder="관리 키" style="margin-top:12px">
+    <div class="kerr">관리 키가 맞지 않습니다.</div>
+    <div class="row"><button type="button" class="btn" data-cancel>취소</button><button type="submit" class="btn pri">확인</button></div>
+  </form>
+</div></div>
+<div class="boot" id="boot"><div class="bootbox"><div class="spin"></div><div id="bootMsg">데이터 불러오는 중…</div></div></div>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>

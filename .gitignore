@@ -1,0 +1,18 @@
+node_modules/
+data/
+web/dist/
+.env
+_kit/
+test-results/
+playwright-report/
+*.log
+.env.*.local
+.env.production.local
+.vercel/
+supabase/.temp/
+supabase/.branches/
+.claude/settings.local.json
+
+# 원본 전달 파일 (prototype/, db/seed/ 에 같은 내용이 있음)
+ktx-webapp-kit.zip
+KTX*.html

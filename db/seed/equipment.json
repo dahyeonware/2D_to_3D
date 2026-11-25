@@ -1,0 +1,2942 @@
+[
+ {
+  "id": "PC1-CAB-01",
+  "code": "CAB",
+  "name": "운전실 콘솔",
+  "category": "제어",
+  "car": "PC1",
+  "zone": "운전실",
+  "pos2d": {
+   "x": 1.8,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 1.8,
+   "y": 1.9,
+   "z": 0
+  },
+  "dims": {
+   "l": 1.6,
+   "w": 1.8,
+   "h": 0.5
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-CTL-100",
+  "installDate": "2019-09-04",
+  "status": "정상",
+  "lastInspection": "2026-09-05",
+  "description": "기관사 조작반·표시기(DDU) 일체형 콘솔"
+ },
+ {
+  "id": "PC1-TCMS-01",
+  "code": "TCMS",
+  "name": "TCMS 주제어기",
+  "category": "제어",
+  "car": "PC1",
+  "zone": "운전실",
+  "pos2d": {
+   "x": 3.3,
+   "y": -0.9
+  },
+  "pos3d": {
+   "x": 3.3,
+   "y": 1.8,
+   "z": -0.9
+  },
+  "dims": {
+   "l": 0.7,
+   "w": 0.6,
+   "h": 0.8
+  },
+  "manufacturer": "누리시스템",
+  "model": "NR-TCMS-100",
+  "installDate": "2021-07-14",
+  "status": "정상",
+  "lastInspection": "2026-09-02",
+  "description": "열차종합제어장치 주제어기. 편성 전체 견인·제동·보조 명령 및 상태 감시 (주 제어)"
+ },
+ {
+  "id": "PC1-ATP-01",
+  "code": "ATP",
+  "name": "차상신호장치(ATP/TVM)",
+  "category": "신호·무선",
+  "car": "PC1",
+  "zone": "운전실",
+  "pos2d": {
+   "x": 3.3,
+   "y": 0.9
+  },
+  "pos3d": {
+   "x": 3.3,
+   "y": 1.8,
+   "z": 0.9
+  },
+  "dims": {
+   "l": 0.7,
+   "w": 0.6,
+   "h": 0.8
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-COM-700",
+  "installDate": "2019-10-04",
+  "status": "정상",
+  "lastInspection": "2026-07-19",
+  "description": "고속선 TVM 계열·기존선 ATP/ATS 겸용 차상신호장치. 속도 감시 및 자동 제동 지령"
+ },
+ {
+  "id": "PC1-REC-01",
+  "code": "REC",
+  "name": "운행기록장치",
+  "category": "제어",
+  "car": "PC1",
+  "zone": "운전실",
+  "pos2d": {
+   "x": 2.4,
+   "y": 1
+  },
+  "pos3d": {
+   "x": 2.4,
+   "y": 1.3,
+   "z": 1
+  },
+  "dims": {
+   "l": 0.4,
+   "w": 0.4,
+   "h": 0.35
+  },
+  "manufacturer": "누리시스템",
+  "model": "NR-TCMS-700",
+  "installDate": "2021-04-02",
+  "status": "정상",
+  "lastInspection": "2026-09-01",
+  "description": "속도·제동·신호 이벤트 기록(블랙박스)"
+ },
+ {
+  "id": "PC1-BAL-01",
+  "code": "BAL",
+  "name": "발리스 차상안테나",
+  "category": "신호·무선",
+  "car": "PC1",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 1.6,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 1.6,
+   "y": 0.35,
+   "z": 0
+  },
+  "dims": {
+   "l": 0.5,
+   "w": 0.5,
+   "h": 0.12
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-COM-300",
+  "installDate": "2020-10-10",
+  "status": "정상",
+  "lastInspection": "2026-03-27",
+  "description": "지상 발리스 정보 수신(유도 결합)"
+ },
+ {
+  "id": "PC1-LTE-01",
+  "code": "LTE",
+  "name": "LTE-R 차상장치",
+  "category": "신호·무선",
+  "car": "PC1",
+  "zone": "기계실",
+  "pos2d": {
+   "x": 5.2,
+   "y": -1
+  },
+  "pos3d": {
+   "x": 5.2,
+   "y": 2,
+   "z": -1
+  },
+  "dims": {
+   "l": 0.6,
+   "w": 0.5,
+   "h": 0.7
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-COM-450",
+  "installDate": "2019-02-18",
+  "status": "정상",
+  "lastInspection": "2026-10-07",
+  "description": "철도통합무선망(LTE-R) 차상 단말·라우터. 열차–관제 음성/데이터"
+ },
+ {
+  "id": "PC1-ANT-01",
+  "code": "ANT",
+  "name": "LTE-R 지붕 안테나",
+  "category": "신호·무선",
+  "car": "PC1",
+  "zone": "지붕",
+  "pos2d": {
+   "x": 4.6,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 4.6,
+   "y": 4.15,
+   "z": 0
+  },
+  "dims": {
+   "l": 0.5,
+   "w": 0.5,
+   "h": 0.15
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-COM-470",
+  "installDate": "2021-11-18",
+  "status": "정상",
+  "lastInspection": "2025-07-13",
+  "description": "LTE-R MIMO 지붕 안테나"
+ },
+ {
+  "id": "PC1-ETBN-01",
+  "code": "ETBN",
+  "name": "열차 백본 스위치(ETBN)",
+  "category": "제어",
+  "car": "PC1",
+  "zone": "기계실",
+  "pos2d": {
+   "x": 5.8,
+   "y": 1
+  },
+  "pos3d": {
+   "x": 5.8,
+   "y": 2,
+   "z": 1
+  },
+  "dims": {
+   "l": 0.5,
+   "w": 0.4,
+   "h": 0.6
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-CTL-850",
+  "installDate": "2020-05-08",
+  "status": "정상",
+  "lastInspection": "2026-09-29",
+  "description": "열차 백본 이더넷(ETB)–차량망(ECN) 연결 노드"
+ },
+ {
+  "id": "PC1-CONV-01",
+  "code": "CONV",
+  "name": "주변환장치",
+  "category": "추진·전력",
+  "car": "PC1",
+  "zone": "기계실",
+  "pos2d": {
+   "x": 9.5,
+   "y": 0.6
+  },
+  "pos3d": {
+   "x": 9.5,
+   "y": 2,
+   "z": 0.6
+  },
+  "dims": {
+   "l": 2.4,
+   "w": 1,
+   "h": 1.6
+  },
+  "manufacturer": "가람전기",
+  "model": "GR-PWR-250",
+  "installDate": "2021-09-16",
+  "status": "정상",
+  "lastInspection": "2026-10-28",
+  "description": "컨버터·인버터 일체형. 주변압기 2차 출력을 견인전동기 구동용 3상 가변전압으로 변환"
+ },
+ {
+  "id": "PC1-FAN-01",
+  "code": "FAN",
+  "name": "주변환장치 냉각팬",
+  "category": "추진·전력",
+  "car": "PC1",
+  "zone": "기계실",
+  "pos2d": {
+   "x": 12.5,
+   "y": -0.6
+  },
+  "pos3d": {
+   "x": 12.5,
+   "y": 2.6,
+   "z": -0.6
+  },
+  "dims": {
+   "l": 1.1,
+   "w": 0.9,
+   "h": 0.8
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-PWR-200",
+  "installDate": "2020-09-14",
+  "status": "정상",
+  "lastInspection": "2026-08-28",
+  "description": "주변환장치·주변압기 강제 냉각 송풍기"
+ },
+ {
+  "id": "PC1-VCB-01",
+  "code": "VCB",
+  "name": "주차단기(VCB)",
+  "category": "추진·전력",
+  "car": "PC1",
+  "zone": "지붕",
+  "pos2d": {
+   "x": 14,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 14,
+   "y": 4.15,
+   "z": 0
+  },
+  "dims": {
+   "l": 0.9,
+   "w": 0.7,
+   "h": 0.4
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-PWR-700",
+  "installDate": "2019-11-03",
+  "status": "정상",
+  "lastInspection": "2026-07-20",
+  "description": "25kV 진공차단기. 고장 시 가선 전원 차단"
+ },
+ {
+  "id": "PC1-PAN-01",
+  "code": "PAN",
+  "name": "팬터그래프",
+  "category": "추진·전력",
+  "car": "PC1",
+  "zone": "지붕",
+  "pos2d": {
+   "x": 16,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 16,
+   "y": 4.3,
+   "z": 0
+  },
+  "dims": {
+   "l": 1.2,
+   "w": 1.1,
+   "h": 0.25
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-PWR-670",
+  "installDate": "2020-10-26",
+  "status": "정상",
+  "lastInspection": "2026-11-04",
+  "description": "AC 25kV 60Hz 가선 집전장치"
+ },
+ {
+  "id": "PC1-MTR-01",
+  "code": "MTR",
+  "name": "주변압기",
+  "category": "추진·전력",
+  "car": "PC1",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 11,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 11,
+   "y": 0.7,
+   "z": 0
+  },
+  "dims": {
+   "l": 3.2,
+   "w": 2,
+   "h": 0.9
+  },
+  "manufacturer": "가람전기",
+  "model": "GR-PWR-800",
+  "installDate": "2019-01-24",
+  "status": "정상",
+  "lastInspection": "2026-04-15",
+  "description": "AC 25kV 강압 변압기. 동력차·인접 동력객차 주변환장치에 2차 전원 공급"
+ },
+ {
+  "id": "PC1-TM-01",
+  "code": "TM",
+  "name": "견인전동기(1대차)",
+  "category": "추진·전력",
+  "car": "PC1",
+  "zone": "대차",
+  "pos2d": {
+   "x": 3.5,
+   "y": 0.55
+  },
+  "pos3d": {
+   "x": 3.5,
+   "y": 0.5,
+   "z": 0.55
+  },
+  "dims": {
+   "l": 0.9,
+   "w": 0.55,
+   "h": 0.55
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-PWR-850",
+  "installDate": "2021-12-13",
+  "status": "정상",
+  "lastInspection": "2025-12-28",
+  "description": "3상 유도전동기(1대차)"
+ },
+ {
+  "id": "PC1-TM-02",
+  "code": "TM",
+  "name": "견인전동기(2대차)",
+  "category": "추진·전력",
+  "car": "PC1",
+  "zone": "대차",
+  "pos2d": {
+   "x": 18.5,
+   "y": 0.55
+  },
+  "pos3d": {
+   "x": 18.5,
+   "y": 0.5,
+   "z": 0.55
+  },
+  "dims": {
+   "l": 0.9,
+   "w": 0.55,
+   "h": 0.55
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-PWR-620",
+  "installDate": "2019-10-04",
+  "status": "정상",
+  "lastInspection": "2025-08-15",
+  "description": "3상 유도전동기(2대차)"
+ },
+ {
+  "id": "PC1-BAT-01",
+  "code": "BAT",
+  "name": "축전지",
+  "category": "추진·전력",
+  "car": "PC1",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 16.8,
+   "y": -0.8
+  },
+  "pos3d": {
+   "x": 16.8,
+   "y": 0.8,
+   "z": -0.8
+  },
+  "dims": {
+   "l": 1.4,
+   "w": 0.8,
+   "h": 0.5
+  },
+  "manufacturer": "가람전기",
+  "model": "GR-PWR-320",
+  "installDate": "2019-07-13",
+  "status": "정상",
+  "lastInspection": "2026-05-16",
+  "description": "제어전원 백업용 Ni-Cd 축전지"
+ },
+ {
+  "id": "PC1-BCU-01",
+  "code": "BCU",
+  "name": "제동제어장치(BCU)",
+  "category": "제동·주행",
+  "car": "PC1",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 8,
+   "y": 0.8
+  },
+  "pos3d": {
+   "x": 8,
+   "y": 0.8,
+   "z": 0.8
+  },
+  "dims": {
+   "l": 1,
+   "w": 0.7,
+   "h": 0.45
+  },
+  "manufacturer": "도담기공",
+  "model": "DD-BRK-870",
+  "installDate": "2019-09-09",
+  "status": "정상",
+  "lastInspection": "2025-08-08",
+  "description": "회생·공기 제동 블렌딩 및 활주 방지 제어"
+ },
+ {
+  "id": "PC1-AXL-01",
+  "code": "AXL",
+  "name": "차축온도센서(무선)",
+  "category": "제동·주행",
+  "car": "PC1",
+  "zone": "대차",
+  "pos2d": {
+   "x": 18.5,
+   "y": -0.8
+  },
+  "pos3d": {
+   "x": 18.5,
+   "y": 0.45,
+   "z": -0.8
+  },
+  "dims": {
+   "l": 0.2,
+   "w": 0.2,
+   "h": 0.2
+  },
+  "manufacturer": "도담기공",
+  "model": "DD-BRK-750",
+  "installDate": "2021-11-13",
+  "status": "정상",
+  "lastInspection": "2026-10-30",
+  "description": "베어링 온도 감시 BLE 무선 센서"
+ },
+ {
+  "id": "MC1-GW-01",
+  "code": "GW",
+  "name": "차량 게이트웨이",
+  "category": "제어",
+  "car": "MC1",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 23.2,
+   "y": 1
+  },
+  "pos3d": {
+   "x": 23.2,
+   "y": 2.2,
+   "z": 1
+  },
+  "dims": {
+   "l": 0.5,
+   "w": 0.35,
+   "h": 0.6
+  },
+  "manufacturer": "누리시스템",
+  "model": "NR-TCMS-320",
+  "installDate": "2019-11-08",
+  "status": "정상",
+  "lastInspection": "2026-06-16",
+  "description": "ETB 백본 노드 겸 차량 내 MVB/ECN 게이트웨이"
+ },
+ {
+  "id": "MC1-DCU-01",
+  "code": "DCU",
+  "name": "출입문제어기(좌)",
+  "category": "승객서비스",
+  "car": "MC1",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 24.4,
+   "y": -1.35
+  },
+  "pos3d": {
+   "x": 24.4,
+   "y": 1.9,
+   "z": -1.35
+  },
+  "dims": {
+   "l": 0.35,
+   "w": 0.2,
+   "h": 0.5
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-550",
+  "installDate": "2021-01-05",
+  "status": "정상",
+  "lastInspection": "2026-04-16",
+  "description": "좌측 승강문 개폐·끼임 감지 제어"
+ },
+ {
+  "id": "MC1-DCU-02",
+  "code": "DCU",
+  "name": "출입문제어기(우)",
+  "category": "승객서비스",
+  "car": "MC1",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 24.4,
+   "y": 1.35
+  },
+  "pos3d": {
+   "x": 24.4,
+   "y": 1.9,
+   "z": 1.35
+  },
+  "dims": {
+   "l": 0.35,
+   "w": 0.2,
+   "h": 0.5
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-620",
+  "installDate": "2021-12-28",
+  "status": "정상",
+  "lastInspection": "2025-10-01",
+  "description": "우측 승강문 개폐·끼임 감지 제어"
+ },
+ {
+  "id": "MC1-TM-01",
+  "code": "TM",
+  "name": "견인전동기",
+  "category": "추진·전력",
+  "car": "MC1",
+  "zone": "대차",
+  "pos2d": {
+   "x": 25,
+   "y": 0.55
+  },
+  "pos3d": {
+   "x": 25,
+   "y": 0.5,
+   "z": 0.55
+  },
+  "dims": {
+   "l": 0.9,
+   "w": 0.55,
+   "h": 0.55
+  },
+  "manufacturer": "가람전기",
+  "model": "GR-PWR-970",
+  "installDate": "2020-07-13",
+  "status": "정상",
+  "lastInspection": "2026-07-08",
+  "description": "동력대차 3상 유도전동기"
+ },
+ {
+  "id": "MC1-VIB-01",
+  "code": "VIB",
+  "name": "대차 진동센서(무선)",
+  "category": "제동·주행",
+  "car": "MC1",
+  "zone": "대차",
+  "pos2d": {
+   "x": 25,
+   "y": -0.8
+  },
+  "pos3d": {
+   "x": 25,
+   "y": 0.45,
+   "z": -0.8
+  },
+  "dims": {
+   "l": 0.2,
+   "w": 0.2,
+   "h": 0.2
+  },
+  "manufacturer": "도담기공",
+  "model": "DD-BRK-700",
+  "installDate": "2020-04-03",
+  "status": "정상",
+  "lastInspection": "2026-06-09",
+  "description": "대차 진동·이상 감지 BLE 무선 센서"
+ },
+ {
+  "id": "MC1-BCU-01",
+  "code": "BCU",
+  "name": "제동제어장치(BCU)",
+  "category": "제동·주행",
+  "car": "MC1",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 28.5,
+   "y": 0.8
+  },
+  "pos3d": {
+   "x": 28.5,
+   "y": 0.75,
+   "z": 0.8
+  },
+  "dims": {
+   "l": 1,
+   "w": 0.7,
+   "h": 0.45
+  },
+  "manufacturer": "도담기공",
+  "model": "DD-BRK-600",
+  "installDate": "2019-02-01",
+  "status": "정상",
+  "lastInspection": "2026-10-23",
+  "description": "차량 단위 공기 제동 제어"
+ },
+ {
+  "id": "MC1-CONV-01",
+  "code": "CONV",
+  "name": "주변환장치",
+  "category": "추진·전력",
+  "car": "MC1",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 32,
+   "y": 0.3
+  },
+  "pos3d": {
+   "x": 32,
+   "y": 0.75,
+   "z": 0.3
+  },
+  "dims": {
+   "l": 2.4,
+   "w": 1,
+   "h": 1.6
+  },
+  "manufacturer": "가람전기",
+  "model": "GR-PWR-600",
+  "installDate": "2021-02-28",
+  "status": "정상",
+  "lastInspection": "2026-08-08",
+  "description": "동력객차 견인용 컨버터·인버터. DC 링크에서 보조전원장치 급전"
+ },
+ {
+  "id": "MC1-HVAC-01",
+  "code": "HVAC",
+  "name": "공조장치",
+  "category": "승객서비스",
+  "car": "MC1",
+  "zone": "지붕",
+  "pos2d": {
+   "x": 33,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 33,
+   "y": 4.1,
+   "z": 0
+  },
+  "dims": {
+   "l": 3.2,
+   "w": 2,
+   "h": 0.4
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-550",
+  "installDate": "2019-10-12",
+  "status": "정상",
+  "lastInspection": "2025-04-11",
+  "description": "객실 냉난방·환기 유닛"
+ },
+ {
+  "id": "MC1-WIFI-01",
+  "code": "WIFI",
+  "name": "객실 Wi-Fi AP",
+  "category": "신호·무선",
+  "car": "MC1",
+  "zone": "객실",
+  "pos2d": {
+   "x": 34.5,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 34.5,
+   "y": 3.2,
+   "z": 0
+  },
+  "dims": {
+   "l": 0.45,
+   "w": 0.45,
+   "h": 0.1
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-COM-870",
+  "installDate": "2019-08-10",
+  "status": "정상",
+  "lastInspection": "2026-07-21",
+  "description": "승객용 2.4/5GHz Wi-Fi 액세스포인트"
+ },
+ {
+  "id": "MC1-APS-01",
+  "code": "APS",
+  "name": "보조전원장치(APS)",
+  "category": "추진·전력",
+  "car": "MC1",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 36.5,
+   "y": -0.6
+  },
+  "pos3d": {
+   "x": 36.5,
+   "y": 0.75,
+   "z": -0.6
+  },
+  "dims": {
+   "l": 2,
+   "w": 1.2,
+   "h": 0.7
+  },
+  "manufacturer": "가람전기",
+  "model": "GR-PWR-650",
+  "installDate": "2019-08-27",
+  "status": "정상",
+  "lastInspection": "2026-10-05",
+  "description": "AC 440V 보조전원·DC 100V 제어전원 공급. 편성 절반(동력객차+객차 3량) 담당"
+ },
+ {
+  "id": "T1-GW-01",
+  "code": "GW",
+  "name": "차량 게이트웨이",
+  "category": "제어",
+  "car": "T1",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 44,
+   "y": 1
+  },
+  "pos3d": {
+   "x": 44,
+   "y": 2.2,
+   "z": 1
+  },
+  "dims": {
+   "l": 0.5,
+   "w": 0.35,
+   "h": 0.6
+  },
+  "manufacturer": "누리시스템",
+  "model": "NR-TCMS-450",
+  "installDate": "2021-03-23",
+  "status": "정상",
+  "lastInspection": "2026-07-19",
+  "description": "ETB 백본 노드 겸 차량 내 MVB/ECN 게이트웨이"
+ },
+ {
+  "id": "T1-DCU-01",
+  "code": "DCU",
+  "name": "출입문제어기(좌)",
+  "category": "승객서비스",
+  "car": "T1",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 44.9,
+   "y": -1.35
+  },
+  "pos3d": {
+   "x": 44.9,
+   "y": 1.9,
+   "z": -1.35
+  },
+  "dims": {
+   "l": 0.35,
+   "w": 0.2,
+   "h": 0.5
+  },
+  "manufacturer": "온길전장",
+  "model": "OG-SVC-250",
+  "installDate": "2021-09-12",
+  "status": "정상",
+  "lastInspection": "2026-03-23",
+  "description": "좌측 승강문 개폐·끼임 감지 제어"
+ },
+ {
+  "id": "T1-DCU-02",
+  "code": "DCU",
+  "name": "출입문제어기(우)",
+  "category": "승객서비스",
+  "car": "T1",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 44.9,
+   "y": 1.35
+  },
+  "pos3d": {
+   "x": 44.9,
+   "y": 1.9,
+   "z": 1.35
+  },
+  "dims": {
+   "l": 0.35,
+   "w": 0.2,
+   "h": 0.5
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-950",
+  "installDate": "2019-11-08",
+  "status": "정상",
+  "lastInspection": "2026-10-23",
+  "description": "우측 승강문 개폐·끼임 감지 제어"
+ },
+ {
+  "id": "T1-PIS-01",
+  "code": "PIS",
+  "name": "승객정보표시기(PIS)",
+  "category": "승객서비스",
+  "car": "T1",
+  "zone": "객실",
+  "pos2d": {
+   "x": 46.2,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 46.2,
+   "y": 2.9,
+   "z": 0
+  },
+  "dims": {
+   "l": 1,
+   "w": 0.08,
+   "h": 0.3
+  },
+  "manufacturer": "온길전장",
+  "model": "OG-SVC-420",
+  "installDate": "2019-09-16",
+  "status": "정상",
+  "lastInspection": "2026-08-05",
+  "description": "행선·정차역·안내 LCD 표시기"
+ },
+ {
+  "id": "T1-WIFI-01",
+  "code": "WIFI",
+  "name": "객실 Wi-Fi AP",
+  "category": "신호·무선",
+  "car": "T1",
+  "zone": "객실",
+  "pos2d": {
+   "x": 50,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 50,
+   "y": 3.2,
+   "z": 0
+  },
+  "dims": {
+   "l": 0.45,
+   "w": 0.45,
+   "h": 0.1
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-COM-850",
+  "installDate": "2019-04-23",
+  "status": "정상",
+  "lastInspection": "2025-11-06",
+  "description": "승객용 2.4/5GHz Wi-Fi 액세스포인트"
+ },
+ {
+  "id": "T1-BCU-01",
+  "code": "BCU",
+  "name": "제동제어장치(BCU)",
+  "category": "제동·주행",
+  "car": "T1",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 52,
+   "y": 0.7
+  },
+  "pos3d": {
+   "x": 52,
+   "y": 0.75,
+   "z": 0.7
+  },
+  "dims": {
+   "l": 1,
+   "w": 0.7,
+   "h": 0.45
+  },
+  "manufacturer": "도담기공",
+  "model": "DD-BRK-650",
+  "installDate": "2020-02-08",
+  "status": "정상",
+  "lastInspection": "2026-09-01",
+  "description": "관절대차 공기 제동 제어"
+ },
+ {
+  "id": "T1-HVAC-01",
+  "code": "HVAC",
+  "name": "공조장치",
+  "category": "승객서비스",
+  "car": "T1",
+  "zone": "지붕",
+  "pos2d": {
+   "x": 53,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 53,
+   "y": 4.1,
+   "z": 0
+  },
+  "dims": {
+   "l": 3.2,
+   "w": 2,
+   "h": 0.4
+  },
+  "manufacturer": "온길전장",
+  "model": "OG-SVC-620",
+  "installDate": "2020-08-20",
+  "status": "정상",
+  "lastInspection": "2026-09-23",
+  "description": "객실 냉난방·환기 유닛"
+ },
+ {
+  "id": "T2-GW-01",
+  "code": "GW",
+  "name": "차량 게이트웨이",
+  "category": "제어",
+  "car": "T2",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 62.7,
+   "y": 1
+  },
+  "pos3d": {
+   "x": 62.7,
+   "y": 2.2,
+   "z": 1
+  },
+  "dims": {
+   "l": 0.5,
+   "w": 0.35,
+   "h": 0.6
+  },
+  "manufacturer": "누리시스템",
+  "model": "NR-TCMS-600",
+  "installDate": "2020-11-04",
+  "status": "정상",
+  "lastInspection": "2026-07-22",
+  "description": "ETB 백본 노드 겸 차량 내 MVB/ECN 게이트웨이"
+ },
+ {
+  "id": "T2-DCU-01",
+  "code": "DCU",
+  "name": "출입문제어기(좌)",
+  "category": "승객서비스",
+  "car": "T2",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 63.6,
+   "y": -1.35
+  },
+  "pos3d": {
+   "x": 63.6,
+   "y": 1.9,
+   "z": -1.35
+  },
+  "dims": {
+   "l": 0.35,
+   "w": 0.2,
+   "h": 0.5
+  },
+  "manufacturer": "온길전장",
+  "model": "OG-SVC-750",
+  "installDate": "2020-02-26",
+  "status": "정상",
+  "lastInspection": "2026-11-06",
+  "description": "좌측 승강문 개폐·끼임 감지 제어"
+ },
+ {
+  "id": "T2-DCU-02",
+  "code": "DCU",
+  "name": "출입문제어기(우)",
+  "category": "승객서비스",
+  "car": "T2",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 63.6,
+   "y": 1.35
+  },
+  "pos3d": {
+   "x": 63.6,
+   "y": 1.9,
+   "z": 1.35
+  },
+  "dims": {
+   "l": 0.35,
+   "w": 0.2,
+   "h": 0.5
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-220",
+  "installDate": "2020-03-05",
+  "status": "정상",
+  "lastInspection": "2026-08-31",
+  "description": "우측 승강문 개폐·끼임 감지 제어"
+ },
+ {
+  "id": "T2-PIS-01",
+  "code": "PIS",
+  "name": "승객정보표시기(PIS)",
+  "category": "승객서비스",
+  "car": "T2",
+  "zone": "객실",
+  "pos2d": {
+   "x": 64.9,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 64.9,
+   "y": 2.9,
+   "z": 0
+  },
+  "dims": {
+   "l": 1,
+   "w": 0.08,
+   "h": 0.3
+  },
+  "manufacturer": "온길전장",
+  "model": "OG-SVC-370",
+  "installDate": "2021-11-12",
+  "status": "정상",
+  "lastInspection": "2026-08-08",
+  "description": "행선·정차역·안내 LCD 표시기"
+ },
+ {
+  "id": "T2-WIFI-01",
+  "code": "WIFI",
+  "name": "객실 Wi-Fi AP",
+  "category": "신호·무선",
+  "car": "T2",
+  "zone": "객실",
+  "pos2d": {
+   "x": 68.7,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 68.7,
+   "y": 3.2,
+   "z": 0
+  },
+  "dims": {
+   "l": 0.45,
+   "w": 0.45,
+   "h": 0.1
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-COM-220",
+  "installDate": "2019-07-28",
+  "status": "정상",
+  "lastInspection": "2025-12-16",
+  "description": "승객용 2.4/5GHz Wi-Fi 액세스포인트"
+ },
+ {
+  "id": "T2-BCU-01",
+  "code": "BCU",
+  "name": "제동제어장치(BCU)",
+  "category": "제동·주행",
+  "car": "T2",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 70.7,
+   "y": 0.7
+  },
+  "pos3d": {
+   "x": 70.7,
+   "y": 0.75,
+   "z": 0.7
+  },
+  "dims": {
+   "l": 1,
+   "w": 0.7,
+   "h": 0.45
+  },
+  "manufacturer": "도담기공",
+  "model": "DD-BRK-450",
+  "installDate": "2019-09-08",
+  "status": "정상",
+  "lastInspection": "2026-04-03",
+  "description": "관절대차 공기 제동 제어"
+ },
+ {
+  "id": "T2-HVAC-01",
+  "code": "HVAC",
+  "name": "공조장치",
+  "category": "승객서비스",
+  "car": "T2",
+  "zone": "지붕",
+  "pos2d": {
+   "x": 71.7,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 71.7,
+   "y": 4.1,
+   "z": 0
+  },
+  "dims": {
+   "l": 3.2,
+   "w": 2,
+   "h": 0.4
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-720",
+  "installDate": "2020-01-24",
+  "status": "정상",
+  "lastInspection": "2026-10-24",
+  "description": "객실 냉난방·환기 유닛"
+ },
+ {
+  "id": "T2-CCTV-01",
+  "code": "CCTV",
+  "name": "객실 CCTV",
+  "category": "승객서비스",
+  "car": "T2",
+  "zone": "객실",
+  "pos2d": {
+   "x": 75.2,
+   "y": -0.9
+  },
+  "pos3d": {
+   "x": 75.2,
+   "y": 3.1,
+   "z": -0.9
+  },
+  "dims": {
+   "l": 0.22,
+   "w": 0.22,
+   "h": 0.22
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-970",
+  "installDate": "2021-09-05",
+  "status": "정상",
+  "lastInspection": "2026-08-24",
+  "description": "객실 감시 카메라(IP)"
+ },
+ {
+  "id": "T2-VIB-01",
+  "code": "VIB",
+  "name": "관절대차 진동센서(무선)",
+  "category": "제동·주행",
+  "car": "T2",
+  "zone": "대차",
+  "pos2d": {
+   "x": 61.7,
+   "y": -0.8
+  },
+  "pos3d": {
+   "x": 61.7,
+   "y": 0.45,
+   "z": -0.8
+  },
+  "dims": {
+   "l": 0.2,
+   "w": 0.2,
+   "h": 0.2
+  },
+  "manufacturer": "도담기공",
+  "model": "DD-BRK-170",
+  "installDate": "2021-03-20",
+  "status": "정상",
+  "lastInspection": "2025-07-04",
+  "description": "관절대차 진동·이상 감지 BLE 무선 센서"
+ },
+ {
+  "id": "T3-GW-01",
+  "code": "GW",
+  "name": "차량 게이트웨이",
+  "category": "제어",
+  "car": "T3",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 81.4,
+   "y": 1
+  },
+  "pos3d": {
+   "x": 81.4,
+   "y": 2.2,
+   "z": 1
+  },
+  "dims": {
+   "l": 0.5,
+   "w": 0.35,
+   "h": 0.6
+  },
+  "manufacturer": "누리시스템",
+  "model": "NR-TCMS-800",
+  "installDate": "2019-09-02",
+  "status": "정상",
+  "lastInspection": "2026-11-05",
+  "description": "ETB 백본 노드 겸 차량 내 MVB/ECN 게이트웨이"
+ },
+ {
+  "id": "T3-DCU-01",
+  "code": "DCU",
+  "name": "출입문제어기(좌)",
+  "category": "승객서비스",
+  "car": "T3",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 82.3,
+   "y": -1.35
+  },
+  "pos3d": {
+   "x": 82.3,
+   "y": 1.9,
+   "z": -1.35
+  },
+  "dims": {
+   "l": 0.35,
+   "w": 0.2,
+   "h": 0.5
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-120",
+  "installDate": "2019-04-09",
+  "status": "주의",
+  "lastInspection": "2026-09-13",
+  "description": "좌측 승강문 개폐·끼임 감지 제어"
+ },
+ {
+  "id": "T3-DCU-02",
+  "code": "DCU",
+  "name": "출입문제어기(우)",
+  "category": "승객서비스",
+  "car": "T3",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 82.3,
+   "y": 1.35
+  },
+  "pos3d": {
+   "x": 82.3,
+   "y": 1.9,
+   "z": 1.35
+  },
+  "dims": {
+   "l": 0.35,
+   "w": 0.2,
+   "h": 0.5
+  },
+  "manufacturer": "온길전장",
+  "model": "OG-SVC-900",
+  "installDate": "2021-02-15",
+  "status": "정상",
+  "lastInspection": "2026-05-10",
+  "description": "우측 승강문 개폐·끼임 감지 제어"
+ },
+ {
+  "id": "T3-PIS-01",
+  "code": "PIS",
+  "name": "승객정보표시기(PIS)",
+  "category": "승객서비스",
+  "car": "T3",
+  "zone": "객실",
+  "pos2d": {
+   "x": 83.6,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 83.6,
+   "y": 2.9,
+   "z": 0
+  },
+  "dims": {
+   "l": 1,
+   "w": 0.08,
+   "h": 0.3
+  },
+  "manufacturer": "온길전장",
+  "model": "OG-SVC-870",
+  "installDate": "2021-09-08",
+  "status": "정상",
+  "lastInspection": "2026-11-04",
+  "description": "행선·정차역·안내 LCD 표시기"
+ },
+ {
+  "id": "T3-WIFI-01",
+  "code": "WIFI",
+  "name": "객실 Wi-Fi AP",
+  "category": "신호·무선",
+  "car": "T3",
+  "zone": "객실",
+  "pos2d": {
+   "x": 87.4,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 87.4,
+   "y": 3.2,
+   "z": 0
+  },
+  "dims": {
+   "l": 0.45,
+   "w": 0.45,
+   "h": 0.1
+  },
+  "manufacturer": "누리시스템",
+  "model": "NR-SIG-820",
+  "installDate": "2021-07-04",
+  "status": "정상",
+  "lastInspection": "2026-11-14",
+  "description": "승객용 2.4/5GHz Wi-Fi 액세스포인트"
+ },
+ {
+  "id": "T3-BCU-01",
+  "code": "BCU",
+  "name": "제동제어장치(BCU)",
+  "category": "제동·주행",
+  "car": "T3",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 89.4,
+   "y": 0.7
+  },
+  "pos3d": {
+   "x": 89.4,
+   "y": 0.75,
+   "z": 0.7
+  },
+  "dims": {
+   "l": 1,
+   "w": 0.7,
+   "h": 0.45
+  },
+  "manufacturer": "도담기공",
+  "model": "DD-BRK-470",
+  "installDate": "2020-02-07",
+  "status": "정상",
+  "lastInspection": "2026-10-27",
+  "description": "관절대차 공기 제동 제어"
+ },
+ {
+  "id": "T3-HVAC-01",
+  "code": "HVAC",
+  "name": "공조장치",
+  "category": "승객서비스",
+  "car": "T3",
+  "zone": "지붕",
+  "pos2d": {
+   "x": 90.4,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 90.4,
+   "y": 4.1,
+   "z": 0
+  },
+  "dims": {
+   "l": 3.2,
+   "w": 2,
+   "h": 0.4
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-620",
+  "installDate": "2019-05-05",
+  "status": "정상",
+  "lastInspection": "2025-07-31",
+  "description": "객실 냉난방·환기 유닛"
+ },
+ {
+  "id": "T4-GW-01",
+  "code": "GW",
+  "name": "차량 게이트웨이",
+  "category": "제어",
+  "car": "T4",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 100.1,
+   "y": 1
+  },
+  "pos3d": {
+   "x": 100.1,
+   "y": 2.2,
+   "z": 1
+  },
+  "dims": {
+   "l": 0.5,
+   "w": 0.35,
+   "h": 0.6
+  },
+  "manufacturer": "누리시스템",
+  "model": "NR-TCMS-770",
+  "installDate": "2021-03-22",
+  "status": "정상",
+  "lastInspection": "2026-01-14",
+  "description": "ETB 백본 노드 겸 차량 내 MVB/ECN 게이트웨이"
+ },
+ {
+  "id": "T4-DCU-01",
+  "code": "DCU",
+  "name": "출입문제어기(좌)",
+  "category": "승객서비스",
+  "car": "T4",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 101,
+   "y": -1.35
+  },
+  "pos3d": {
+   "x": 101,
+   "y": 1.9,
+   "z": -1.35
+  },
+  "dims": {
+   "l": 0.35,
+   "w": 0.2,
+   "h": 0.5
+  },
+  "manufacturer": "온길전장",
+  "model": "OG-SVC-770",
+  "installDate": "2019-06-14",
+  "status": "정상",
+  "lastInspection": "2026-08-13",
+  "description": "좌측 승강문 개폐·끼임 감지 제어"
+ },
+ {
+  "id": "T4-DCU-02",
+  "code": "DCU",
+  "name": "출입문제어기(우)",
+  "category": "승객서비스",
+  "car": "T4",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 101,
+   "y": 1.35
+  },
+  "pos3d": {
+   "x": 101,
+   "y": 1.9,
+   "z": 1.35
+  },
+  "dims": {
+   "l": 0.35,
+   "w": 0.2,
+   "h": 0.5
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-600",
+  "installDate": "2020-06-18",
+  "status": "정상",
+  "lastInspection": "2026-06-26",
+  "description": "우측 승강문 개폐·끼임 감지 제어"
+ },
+ {
+  "id": "T4-PIS-01",
+  "code": "PIS",
+  "name": "승객정보표시기(PIS)",
+  "category": "승객서비스",
+  "car": "T4",
+  "zone": "객실",
+  "pos2d": {
+   "x": 102.3,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 102.3,
+   "y": 2.9,
+   "z": 0
+  },
+  "dims": {
+   "l": 1,
+   "w": 0.08,
+   "h": 0.3
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-750",
+  "installDate": "2021-09-20",
+  "status": "정상",
+  "lastInspection": "2026-05-06",
+  "description": "행선·정차역·안내 LCD 표시기"
+ },
+ {
+  "id": "T4-WIFI-01",
+  "code": "WIFI",
+  "name": "객실 Wi-Fi AP",
+  "category": "신호·무선",
+  "car": "T4",
+  "zone": "객실",
+  "pos2d": {
+   "x": 106.1,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 106.1,
+   "y": 3.2,
+   "z": 0
+  },
+  "dims": {
+   "l": 0.45,
+   "w": 0.45,
+   "h": 0.1
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-COM-200",
+  "installDate": "2019-05-09",
+  "status": "정상",
+  "lastInspection": "2026-04-28",
+  "description": "승객용 2.4/5GHz Wi-Fi 액세스포인트"
+ },
+ {
+  "id": "T4-BCU-01",
+  "code": "BCU",
+  "name": "제동제어장치(BCU)",
+  "category": "제동·주행",
+  "car": "T4",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 108.1,
+   "y": 0.7
+  },
+  "pos3d": {
+   "x": 108.1,
+   "y": 0.75,
+   "z": 0.7
+  },
+  "dims": {
+   "l": 1,
+   "w": 0.7,
+   "h": 0.45
+  },
+  "manufacturer": "도담기공",
+  "model": "DD-BRK-750",
+  "installDate": "2020-07-05",
+  "status": "정상",
+  "lastInspection": "2026-05-27",
+  "description": "관절대차 공기 제동 제어"
+ },
+ {
+  "id": "T4-HVAC-01",
+  "code": "HVAC",
+  "name": "공조장치",
+  "category": "승객서비스",
+  "car": "T4",
+  "zone": "지붕",
+  "pos2d": {
+   "x": 109.1,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 109.1,
+   "y": 4.1,
+   "z": 0
+  },
+  "dims": {
+   "l": 3.2,
+   "w": 2,
+   "h": 0.4
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-250",
+  "installDate": "2021-01-26",
+  "status": "정상",
+  "lastInspection": "2026-10-30",
+  "description": "객실 냉난방·환기 유닛"
+ },
+ {
+  "id": "T4-CCTV-01",
+  "code": "CCTV",
+  "name": "객실 CCTV",
+  "category": "승객서비스",
+  "car": "T4",
+  "zone": "객실",
+  "pos2d": {
+   "x": 112.6,
+   "y": -0.9
+  },
+  "pos3d": {
+   "x": 112.6,
+   "y": 3.1,
+   "z": -0.9
+  },
+  "dims": {
+   "l": 0.22,
+   "w": 0.22,
+   "h": 0.22
+  },
+  "manufacturer": "온길전장",
+  "model": "OG-SVC-500",
+  "installDate": "2020-11-03",
+  "status": "정상",
+  "lastInspection": "2026-10-08",
+  "description": "객실 감시 카메라(IP)"
+ },
+ {
+  "id": "T5-GW-01",
+  "code": "GW",
+  "name": "차량 게이트웨이",
+  "category": "제어",
+  "car": "T5",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 118.8,
+   "y": 1
+  },
+  "pos3d": {
+   "x": 118.8,
+   "y": 2.2,
+   "z": 1
+  },
+  "dims": {
+   "l": 0.5,
+   "w": 0.35,
+   "h": 0.6
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-CTL-400",
+  "installDate": "2019-05-28",
+  "status": "정상",
+  "lastInspection": "2026-10-22",
+  "description": "ETB 백본 노드 겸 차량 내 MVB/ECN 게이트웨이"
+ },
+ {
+  "id": "T5-DCU-01",
+  "code": "DCU",
+  "name": "출입문제어기(좌)",
+  "category": "승객서비스",
+  "car": "T5",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 119.7,
+   "y": -1.35
+  },
+  "pos3d": {
+   "x": 119.7,
+   "y": 1.9,
+   "z": -1.35
+  },
+  "dims": {
+   "l": 0.35,
+   "w": 0.2,
+   "h": 0.5
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-970",
+  "installDate": "2019-05-20",
+  "status": "정상",
+  "lastInspection": "2026-09-06",
+  "description": "좌측 승강문 개폐·끼임 감지 제어"
+ },
+ {
+  "id": "T5-DCU-02",
+  "code": "DCU",
+  "name": "출입문제어기(우)",
+  "category": "승객서비스",
+  "car": "T5",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 119.7,
+   "y": 1.35
+  },
+  "pos3d": {
+   "x": 119.7,
+   "y": 1.9,
+   "z": 1.35
+  },
+  "dims": {
+   "l": 0.35,
+   "w": 0.2,
+   "h": 0.5
+  },
+  "manufacturer": "온길전장",
+  "model": "OG-SVC-400",
+  "installDate": "2021-03-09",
+  "status": "정상",
+  "lastInspection": "2026-11-15",
+  "description": "우측 승강문 개폐·끼임 감지 제어"
+ },
+ {
+  "id": "T5-PIS-01",
+  "code": "PIS",
+  "name": "승객정보표시기(PIS)",
+  "category": "승객서비스",
+  "car": "T5",
+  "zone": "객실",
+  "pos2d": {
+   "x": 121,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 121,
+   "y": 2.9,
+   "z": 0
+  },
+  "dims": {
+   "l": 1,
+   "w": 0.08,
+   "h": 0.3
+  },
+  "manufacturer": "온길전장",
+  "model": "OG-SVC-520",
+  "installDate": "2019-05-15",
+  "status": "고장",
+  "lastInspection": "2026-04-29",
+  "description": "행선·정차역·안내 LCD 표시기"
+ },
+ {
+  "id": "T5-WIFI-01",
+  "code": "WIFI",
+  "name": "객실 Wi-Fi AP",
+  "category": "신호·무선",
+  "car": "T5",
+  "zone": "객실",
+  "pos2d": {
+   "x": 124.8,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 124.8,
+   "y": 3.2,
+   "z": 0
+  },
+  "dims": {
+   "l": 0.45,
+   "w": 0.45,
+   "h": 0.1
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-COM-150",
+  "installDate": "2020-01-01",
+  "status": "정상",
+  "lastInspection": "2026-02-08",
+  "description": "승객용 2.4/5GHz Wi-Fi 액세스포인트"
+ },
+ {
+  "id": "T5-BCU-01",
+  "code": "BCU",
+  "name": "제동제어장치(BCU)",
+  "category": "제동·주행",
+  "car": "T5",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 126.8,
+   "y": 0.7
+  },
+  "pos3d": {
+   "x": 126.8,
+   "y": 0.75,
+   "z": 0.7
+  },
+  "dims": {
+   "l": 1,
+   "w": 0.7,
+   "h": 0.45
+  },
+  "manufacturer": "도담기공",
+  "model": "DD-BRK-470",
+  "installDate": "2021-02-22",
+  "status": "정상",
+  "lastInspection": "2026-05-15",
+  "description": "관절대차 공기 제동 제어"
+ },
+ {
+  "id": "T5-HVAC-01",
+  "code": "HVAC",
+  "name": "공조장치",
+  "category": "승객서비스",
+  "car": "T5",
+  "zone": "지붕",
+  "pos2d": {
+   "x": 127.8,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 127.8,
+   "y": 4.1,
+   "z": 0
+  },
+  "dims": {
+   "l": 3.2,
+   "w": 2,
+   "h": 0.4
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-970",
+  "installDate": "2021-09-10",
+  "status": "정상",
+  "lastInspection": "2026-10-17",
+  "description": "객실 냉난방·환기 유닛"
+ },
+ {
+  "id": "T5-VIB-01",
+  "code": "VIB",
+  "name": "관절대차 진동센서(무선)",
+  "category": "제동·주행",
+  "car": "T5",
+  "zone": "대차",
+  "pos2d": {
+   "x": 117.8,
+   "y": -0.8
+  },
+  "pos3d": {
+   "x": 117.8,
+   "y": 0.45,
+   "z": -0.8
+  },
+  "dims": {
+   "l": 0.2,
+   "w": 0.2,
+   "h": 0.2
+  },
+  "manufacturer": "도담기공",
+  "model": "DD-BRK-420",
+  "installDate": "2019-07-12",
+  "status": "정상",
+  "lastInspection": "2025-11-12",
+  "description": "관절대차 진동·이상 감지 BLE 무선 센서"
+ },
+ {
+  "id": "T6-GW-01",
+  "code": "GW",
+  "name": "차량 게이트웨이",
+  "category": "제어",
+  "car": "T6",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 137.5,
+   "y": 1
+  },
+  "pos3d": {
+   "x": 137.5,
+   "y": 2.2,
+   "z": 1
+  },
+  "dims": {
+   "l": 0.5,
+   "w": 0.35,
+   "h": 0.6
+  },
+  "manufacturer": "누리시스템",
+  "model": "NR-TCMS-570",
+  "installDate": "2019-03-02",
+  "status": "정상",
+  "lastInspection": "2026-03-20",
+  "description": "ETB 백본 노드 겸 차량 내 MVB/ECN 게이트웨이"
+ },
+ {
+  "id": "T6-DCU-01",
+  "code": "DCU",
+  "name": "출입문제어기(좌)",
+  "category": "승객서비스",
+  "car": "T6",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 138.4,
+   "y": -1.35
+  },
+  "pos3d": {
+   "x": 138.4,
+   "y": 1.9,
+   "z": -1.35
+  },
+  "dims": {
+   "l": 0.35,
+   "w": 0.2,
+   "h": 0.5
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-520",
+  "installDate": "2021-12-10",
+  "status": "정상",
+  "lastInspection": "2026-06-13",
+  "description": "좌측 승강문 개폐·끼임 감지 제어"
+ },
+ {
+  "id": "T6-DCU-02",
+  "code": "DCU",
+  "name": "출입문제어기(우)",
+  "category": "승객서비스",
+  "car": "T6",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 138.4,
+   "y": 1.35
+  },
+  "pos3d": {
+   "x": 138.4,
+   "y": 1.9,
+   "z": 1.35
+  },
+  "dims": {
+   "l": 0.35,
+   "w": 0.2,
+   "h": 0.5
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-570",
+  "installDate": "2019-01-09",
+  "status": "정상",
+  "lastInspection": "2026-09-21",
+  "description": "우측 승강문 개폐·끼임 감지 제어"
+ },
+ {
+  "id": "T6-PIS-01",
+  "code": "PIS",
+  "name": "승객정보표시기(PIS)",
+  "category": "승객서비스",
+  "car": "T6",
+  "zone": "객실",
+  "pos2d": {
+   "x": 139.7,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 139.7,
+   "y": 2.9,
+   "z": 0
+  },
+  "dims": {
+   "l": 1,
+   "w": 0.08,
+   "h": 0.3
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-SVC-400",
+  "installDate": "2021-05-07",
+  "status": "정상",
+  "lastInspection": "2026-02-28",
+  "description": "행선·정차역·안내 LCD 표시기"
+ },
+ {
+  "id": "T6-WIFI-01",
+  "code": "WIFI",
+  "name": "객실 Wi-Fi AP",
+  "category": "신호·무선",
+  "car": "T6",
+  "zone": "객실",
+  "pos2d": {
+   "x": 143.5,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 143.5,
+   "y": 3.2,
+   "z": 0
+  },
+  "dims": {
+   "l": 0.45,
+   "w": 0.45,
+   "h": 0.1
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-COM-700",
+  "installDate": "2019-08-09",
+  "status": "정상",
+  "lastInspection": "2026-11-12",
+  "description": "승객용 2.4/5GHz Wi-Fi 액세스포인트"
+ },
+ {
+  "id": "T6-BCU-01",
+  "code": "BCU",
+  "name": "제동제어장치(BCU)",
+  "category": "제동·주행",
+  "car": "T6",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 145.5,
+   "y": 0.7
+  },
+  "pos3d": {
+   "x": 145.5,
+   "y": 0.75,
+   "z": 0.7
+  },
+  "dims": {
+   "l": 1,
+   "w": 0.7,
+   "h": 0.45
+  },
+  "manufacturer": "도담기공",
+  "model": "DD-BRK-100",
+  "installDate": "2019-05-27",
+  "status": "정상",
+  "lastInspection": "2026-08-19",
+  "description": "관절대차 공기 제동 제어"
+ },
+ {
+  "id": "T6-HVAC-01",
+  "code": "HVAC",
+  "name": "공조장치",
+  "category": "승객서비스",
+  "car": "T6",
+  "zone": "지붕",
+  "pos2d": {
+   "x": 146.5,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 146.5,
+   "y": 4.1,
+   "z": 0
+  },
+  "dims": {
+   "l": 3.2,
+   "w": 2,
+   "h": 0.4
+  },
+  "manufacturer": "온길전장",
+  "model": "OG-SVC-170",
+  "installDate": "2020-01-10",
+  "status": "주의",
+  "lastInspection": "2025-10-24",
+  "description": "객실 냉난방·환기 유닛"
+ },
+ {
+  "id": "T6-CCTV-01",
+  "code": "CCTV",
+  "name": "객실 CCTV",
+  "category": "승객서비스",
+  "car": "T6",
+  "zone": "객실",
+  "pos2d": {
+   "x": 150,
+   "y": -0.9
+  },
+  "pos3d": {
+   "x": 150,
+   "y": 3.1,
+   "z": -0.9
+  },
+  "dims": {
+   "l": 0.22,
+   "w": 0.22,
+   "h": 0.22
+  },
+  "manufacturer": "온길전장",
+  "model": "OG-SVC-920",
+  "installDate": "2019-11-23",
+  "status": "정상",
+  "lastInspection": "2026-05-14",
+  "description": "객실 감시 카메라(IP)"
+ },
+ {
+  "id": "MC2-GW-01",
+  "code": "GW",
+  "name": "차량 게이트웨이",
+  "category": "제어",
+  "car": "MC2",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 175,
+   "y": 1
+  },
+  "pos3d": {
+   "x": 175,
+   "y": 2.2,
+   "z": 1
+  },
+  "dims": {
+   "l": 0.5,
+   "w": 0.35,
+   "h": 0.6
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-CTL-820",
+  "installDate": "2020-05-24",
+  "status": "정상",
+  "lastInspection": "2026-09-18",
+  "description": "ETB 백본 노드 겸 차량 내 MVB/ECN 게이트웨이"
+ },
+ {
+  "id": "MC2-DCU-01",
+  "code": "DCU",
+  "name": "출입문제어기(좌)",
+  "category": "승객서비스",
+  "car": "MC2",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 173.8,
+   "y": -1.35
+  },
+  "pos3d": {
+   "x": 173.8,
+   "y": 1.9,
+   "z": -1.35
+  },
+  "dims": {
+   "l": 0.35,
+   "w": 0.2,
+   "h": 0.5
+  },
+  "manufacturer": "온길전장",
+  "model": "OG-SVC-970",
+  "installDate": "2019-12-23",
+  "status": "정상",
+  "lastInspection": "2026-05-07",
+  "description": "좌측 승강문 개폐·끼임 감지 제어"
+ },
+ {
+  "id": "MC2-DCU-02",
+  "code": "DCU",
+  "name": "출입문제어기(우)",
+  "category": "승객서비스",
+  "car": "MC2",
+  "zone": "연결부",
+  "pos2d": {
+   "x": 173.8,
+   "y": 1.35
+  },
+  "pos3d": {
+   "x": 173.8,
+   "y": 1.9,
+   "z": 1.35
+  },
+  "dims": {
+   "l": 0.35,
+   "w": 0.2,
+   "h": 0.5
+  },
+  "manufacturer": "온길전장",
+  "model": "OG-SVC-120",
+  "installDate": "2021-02-01",
+  "status": "정상",
+  "lastInspection": "2026-04-20",
+  "description": "우측 승강문 개폐·끼임 감지 제어"
+ },
+ {
+  "id": "MC2-TM-01",
+  "code": "TM",
+  "name": "견인전동기",
+  "category": "추진·전력",
+  "car": "MC2",
+  "zone": "대차",
+  "pos2d": {
+   "x": 173.2,
+   "y": 0.55
+  },
+  "pos3d": {
+   "x": 173.2,
+   "y": 0.5,
+   "z": 0.55
+  },
+  "dims": {
+   "l": 0.9,
+   "w": 0.55,
+   "h": 0.55
+  },
+  "manufacturer": "가람전기",
+  "model": "GR-PWR-270",
+  "installDate": "2021-08-18",
+  "status": "정상",
+  "lastInspection": "2026-04-08",
+  "description": "동력대차 3상 유도전동기"
+ },
+ {
+  "id": "MC2-VIB-01",
+  "code": "VIB",
+  "name": "대차 진동센서(무선)",
+  "category": "제동·주행",
+  "car": "MC2",
+  "zone": "대차",
+  "pos2d": {
+   "x": 173.2,
+   "y": -0.8
+  },
+  "pos3d": {
+   "x": 173.2,
+   "y": 0.45,
+   "z": -0.8
+  },
+  "dims": {
+   "l": 0.2,
+   "w": 0.2,
+   "h": 0.2
+  },
+  "manufacturer": "도담기공",
+  "model": "DD-BRK-470",
+  "installDate": "2021-05-01",
+  "status": "정상",
+  "lastInspection": "2026-03-15",
+  "description": "대차 진동·이상 감지 BLE 무선 센서"
+ },
+ {
+  "id": "MC2-BCU-01",
+  "code": "BCU",
+  "name": "제동제어장치(BCU)",
+  "category": "제동·주행",
+  "car": "MC2",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 169.7,
+   "y": 0.8
+  },
+  "pos3d": {
+   "x": 169.7,
+   "y": 0.75,
+   "z": 0.8
+  },
+  "dims": {
+   "l": 1,
+   "w": 0.7,
+   "h": 0.45
+  },
+  "manufacturer": "도담기공",
+  "model": "DD-BRK-900",
+  "installDate": "2021-11-17",
+  "status": "정상",
+  "lastInspection": "2026-09-12",
+  "description": "차량 단위 공기 제동 제어"
+ },
+ {
+  "id": "MC2-CONV-01",
+  "code": "CONV",
+  "name": "주변환장치",
+  "category": "추진·전력",
+  "car": "MC2",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 166.2,
+   "y": 0.3
+  },
+  "pos3d": {
+   "x": 166.2,
+   "y": 0.75,
+   "z": 0.3
+  },
+  "dims": {
+   "l": 2.4,
+   "w": 1,
+   "h": 1.6
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-PWR-520",
+  "installDate": "2020-12-25",
+  "status": "정상",
+  "lastInspection": "2025-10-18",
+  "description": "동력객차 견인용 컨버터·인버터. DC 링크에서 보조전원장치 급전"
+ },
+ {
+  "id": "MC2-HVAC-01",
+  "code": "HVAC",
+  "name": "공조장치",
+  "category": "승객서비스",
+  "car": "MC2",
+  "zone": "지붕",
+  "pos2d": {
+   "x": 165.2,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 165.2,
+   "y": 4.1,
+   "z": 0
+  },
+  "dims": {
+   "l": 3.2,
+   "w": 2,
+   "h": 0.4
+  },
+  "manufacturer": "온길전장",
+  "model": "OG-SVC-870",
+  "installDate": "2021-07-03",
+  "status": "정상",
+  "lastInspection": "2026-09-07",
+  "description": "객실 냉난방·환기 유닛"
+ },
+ {
+  "id": "MC2-WIFI-01",
+  "code": "WIFI",
+  "name": "객실 Wi-Fi AP",
+  "category": "신호·무선",
+  "car": "MC2",
+  "zone": "객실",
+  "pos2d": {
+   "x": 163.7,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 163.7,
+   "y": 3.2,
+   "z": 0
+  },
+  "dims": {
+   "l": 0.45,
+   "w": 0.45,
+   "h": 0.1
+  },
+  "manufacturer": "누리시스템",
+  "model": "NR-SIG-400",
+  "installDate": "2019-10-05",
+  "status": "정상",
+  "lastInspection": "2026-05-02",
+  "description": "승객용 2.4/5GHz Wi-Fi 액세스포인트"
+ },
+ {
+  "id": "MC2-APS-01",
+  "code": "APS",
+  "name": "보조전원장치(APS)",
+  "category": "추진·전력",
+  "car": "MC2",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 161.7,
+   "y": -0.6
+  },
+  "pos3d": {
+   "x": 161.7,
+   "y": 0.75,
+   "z": -0.6
+  },
+  "dims": {
+   "l": 2,
+   "w": 1.2,
+   "h": 0.7
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-PWR-520",
+  "installDate": "2021-01-16",
+  "status": "정상",
+  "lastInspection": "2026-02-18",
+  "description": "AC 440V 보조전원·DC 100V 제어전원 공급. 편성 절반(동력객차+객차 3량) 담당"
+ },
+ {
+  "id": "PC2-CAB-01",
+  "code": "CAB",
+  "name": "운전실 콘솔",
+  "category": "제어",
+  "car": "PC2",
+  "zone": "운전실",
+  "pos2d": {
+   "x": 196.4,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 196.4,
+   "y": 1.9,
+   "z": 0
+  },
+  "dims": {
+   "l": 1.6,
+   "w": 1.8,
+   "h": 0.5
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-CTL-220",
+  "installDate": "2020-11-16",
+  "status": "정상",
+  "lastInspection": "2026-01-19",
+  "description": "기관사 조작반·표시기(DDU) 일체형 콘솔"
+ },
+ {
+  "id": "PC2-TCMS-01",
+  "code": "TCMS",
+  "name": "TCMS 주제어기",
+  "category": "제어",
+  "car": "PC2",
+  "zone": "운전실",
+  "pos2d": {
+   "x": 194.9,
+   "y": -0.9
+  },
+  "pos3d": {
+   "x": 194.9,
+   "y": 1.8,
+   "z": -0.9
+  },
+  "dims": {
+   "l": 0.7,
+   "w": 0.6,
+   "h": 0.8
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-CTL-800",
+  "installDate": "2020-09-07",
+  "status": "정상",
+  "lastInspection": "2026-09-22",
+  "description": "열차종합제어장치 주제어기. 편성 전체 견인·제동·보조 명령 및 상태 감시 (대기 이중화)"
+ },
+ {
+  "id": "PC2-ATP-01",
+  "code": "ATP",
+  "name": "차상신호장치(ATP/TVM)",
+  "category": "신호·무선",
+  "car": "PC2",
+  "zone": "운전실",
+  "pos2d": {
+   "x": 194.9,
+   "y": 0.9
+  },
+  "pos3d": {
+   "x": 194.9,
+   "y": 1.8,
+   "z": 0.9
+  },
+  "dims": {
+   "l": 0.7,
+   "w": 0.6,
+   "h": 0.8
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-COM-570",
+  "installDate": "2020-02-27",
+  "status": "정상",
+  "lastInspection": "2026-05-12",
+  "description": "고속선 TVM 계열·기존선 ATP/ATS 겸용 차상신호장치. 속도 감시 및 자동 제동 지령"
+ },
+ {
+  "id": "PC2-REC-01",
+  "code": "REC",
+  "name": "운행기록장치",
+  "category": "제어",
+  "car": "PC2",
+  "zone": "운전실",
+  "pos2d": {
+   "x": 195.8,
+   "y": 1
+  },
+  "pos3d": {
+   "x": 195.8,
+   "y": 1.3,
+   "z": 1
+  },
+  "dims": {
+   "l": 0.4,
+   "w": 0.4,
+   "h": 0.35
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-CTL-420",
+  "installDate": "2020-02-19",
+  "status": "정상",
+  "lastInspection": "2026-03-02",
+  "description": "속도·제동·신호 이벤트 기록(블랙박스)"
+ },
+ {
+  "id": "PC2-BAL-01",
+  "code": "BAL",
+  "name": "발리스 차상안테나",
+  "category": "신호·무선",
+  "car": "PC2",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 196.6,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 196.6,
+   "y": 0.35,
+   "z": 0
+  },
+  "dims": {
+   "l": 0.5,
+   "w": 0.5,
+   "h": 0.12
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-COM-550",
+  "installDate": "2021-03-20",
+  "status": "정상",
+  "lastInspection": "2026-03-31",
+  "description": "지상 발리스 정보 수신(유도 결합)"
+ },
+ {
+  "id": "PC2-LTE-01",
+  "code": "LTE",
+  "name": "LTE-R 차상장치",
+  "category": "신호·무선",
+  "car": "PC2",
+  "zone": "기계실",
+  "pos2d": {
+   "x": 193,
+   "y": -1
+  },
+  "pos3d": {
+   "x": 193,
+   "y": 2,
+   "z": -1
+  },
+  "dims": {
+   "l": 0.6,
+   "w": 0.5,
+   "h": 0.7
+  },
+  "manufacturer": "누리시스템",
+  "model": "NR-SIG-620",
+  "installDate": "2019-08-16",
+  "status": "정상",
+  "lastInspection": "2026-02-08",
+  "description": "철도통합무선망(LTE-R) 차상 단말·라우터. 열차–관제 음성/데이터"
+ },
+ {
+  "id": "PC2-ANT-01",
+  "code": "ANT",
+  "name": "LTE-R 지붕 안테나",
+  "category": "신호·무선",
+  "car": "PC2",
+  "zone": "지붕",
+  "pos2d": {
+   "x": 193.6,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 193.6,
+   "y": 4.15,
+   "z": 0
+  },
+  "dims": {
+   "l": 0.5,
+   "w": 0.5,
+   "h": 0.15
+  },
+  "manufacturer": "새솔ICT",
+  "model": "SS-COM-870",
+  "installDate": "2019-07-10",
+  "status": "정상",
+  "lastInspection": "2025-12-06",
+  "description": "LTE-R MIMO 지붕 안테나"
+ },
+ {
+  "id": "PC2-ETBN-01",
+  "code": "ETBN",
+  "name": "열차 백본 스위치(ETBN)",
+  "category": "제어",
+  "car": "PC2",
+  "zone": "기계실",
+  "pos2d": {
+   "x": 192.4,
+   "y": 1
+  },
+  "pos3d": {
+   "x": 192.4,
+   "y": 2,
+   "z": 1
+  },
+  "dims": {
+   "l": 0.5,
+   "w": 0.4,
+   "h": 0.6
+  },
+  "manufacturer": "누리시스템",
+  "model": "NR-TCMS-750",
+  "installDate": "2020-02-27",
+  "status": "정상",
+  "lastInspection": "2026-03-02",
+  "description": "열차 백본 이더넷(ETB)–차량망(ECN) 연결 노드"
+ },
+ {
+  "id": "PC2-CONV-01",
+  "code": "CONV",
+  "name": "주변환장치",
+  "category": "추진·전력",
+  "car": "PC2",
+  "zone": "기계실",
+  "pos2d": {
+   "x": 188.7,
+   "y": 0.6
+  },
+  "pos3d": {
+   "x": 188.7,
+   "y": 2,
+   "z": 0.6
+  },
+  "dims": {
+   "l": 2.4,
+   "w": 1,
+   "h": 1.6
+  },
+  "manufacturer": "가람전기",
+  "model": "GR-PWR-700",
+  "installDate": "2020-04-23",
+  "status": "정상",
+  "lastInspection": "2026-10-22",
+  "description": "컨버터·인버터 일체형. 주변압기 2차 출력을 견인전동기 구동용 3상 가변전압으로 변환"
+ },
+ {
+  "id": "PC2-FAN-01",
+  "code": "FAN",
+  "name": "주변환장치 냉각팬",
+  "category": "추진·전력",
+  "car": "PC2",
+  "zone": "기계실",
+  "pos2d": {
+   "x": 185.7,
+   "y": -0.6
+  },
+  "pos3d": {
+   "x": 185.7,
+   "y": 2.6,
+   "z": -0.6
+  },
+  "dims": {
+   "l": 1.1,
+   "w": 0.9,
+   "h": 0.8
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-PWR-270",
+  "installDate": "2020-07-28",
+  "status": "주의",
+  "lastInspection": "2026-10-22",
+  "description": "주변환장치·주변압기 강제 냉각 송풍기"
+ },
+ {
+  "id": "PC2-VCB-01",
+  "code": "VCB",
+  "name": "주차단기(VCB)",
+  "category": "추진·전력",
+  "car": "PC2",
+  "zone": "지붕",
+  "pos2d": {
+   "x": 184.2,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 184.2,
+   "y": 4.15,
+   "z": 0
+  },
+  "dims": {
+   "l": 0.9,
+   "w": 0.7,
+   "h": 0.4
+  },
+  "manufacturer": "가람전기",
+  "model": "GR-PWR-500",
+  "installDate": "2020-05-04",
+  "status": "정상",
+  "lastInspection": "2026-07-30",
+  "description": "25kV 진공차단기. 고장 시 가선 전원 차단"
+ },
+ {
+  "id": "PC2-PAN-01",
+  "code": "PAN",
+  "name": "팬터그래프",
+  "category": "추진·전력",
+  "car": "PC2",
+  "zone": "지붕",
+  "pos2d": {
+   "x": 182.2,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 182.2,
+   "y": 4.3,
+   "z": 0
+  },
+  "dims": {
+   "l": 1.2,
+   "w": 1.1,
+   "h": 0.25
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-PWR-450",
+  "installDate": "2021-07-17",
+  "status": "정상",
+  "lastInspection": "2026-09-08",
+  "description": "AC 25kV 60Hz 가선 집전장치"
+ },
+ {
+  "id": "PC2-MTR-01",
+  "code": "MTR",
+  "name": "주변압기",
+  "category": "추진·전력",
+  "car": "PC2",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 187.2,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 187.2,
+   "y": 0.7,
+   "z": 0
+  },
+  "dims": {
+   "l": 3.2,
+   "w": 2,
+   "h": 0.9
+  },
+  "manufacturer": "가람전기",
+  "model": "GR-PWR-170",
+  "installDate": "2020-09-18",
+  "status": "정상",
+  "lastInspection": "2026-09-20",
+  "description": "AC 25kV 강압 변압기. 동력차·인접 동력객차 주변환장치에 2차 전원 공급"
+ },
+ {
+  "id": "PC2-TM-01",
+  "code": "TM",
+  "name": "견인전동기(1대차)",
+  "category": "추진·전력",
+  "car": "PC2",
+  "zone": "대차",
+  "pos2d": {
+   "x": 194.7,
+   "y": 0.55
+  },
+  "pos3d": {
+   "x": 194.7,
+   "y": 0.5,
+   "z": 0.55
+  },
+  "dims": {
+   "l": 0.9,
+   "w": 0.55,
+   "h": 0.55
+  },
+  "manufacturer": "가람전기",
+  "model": "GR-PWR-770",
+  "installDate": "2019-10-25",
+  "status": "정상",
+  "lastInspection": "2026-01-29",
+  "description": "3상 유도전동기(1대차)"
+ },
+ {
+  "id": "PC2-TM-02",
+  "code": "TM",
+  "name": "견인전동기(2대차)",
+  "category": "추진·전력",
+  "car": "PC2",
+  "zone": "대차",
+  "pos2d": {
+   "x": 179.7,
+   "y": 0.55
+  },
+  "pos3d": {
+   "x": 179.7,
+   "y": 0.5,
+   "z": 0.55
+  },
+  "dims": {
+   "l": 0.9,
+   "w": 0.55,
+   "h": 0.55
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-PWR-920",
+  "installDate": "2020-03-16",
+  "status": "정상",
+  "lastInspection": "2026-07-21",
+  "description": "3상 유도전동기(2대차)"
+ },
+ {
+  "id": "PC2-BAT-01",
+  "code": "BAT",
+  "name": "축전지",
+  "category": "추진·전력",
+  "car": "PC2",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 181.4,
+   "y": -0.8
+  },
+  "pos3d": {
+   "x": 181.4,
+   "y": 0.8,
+   "z": -0.8
+  },
+  "dims": {
+   "l": 1.4,
+   "w": 0.8,
+   "h": 0.5
+  },
+  "manufacturer": "한빛레일텍",
+  "model": "HB-PWR-550",
+  "installDate": "2020-07-21",
+  "status": "정상",
+  "lastInspection": "2026-11-01",
+  "description": "제어전원 백업용 Ni-Cd 축전지"
+ },
+ {
+  "id": "PC2-BCU-01",
+  "code": "BCU",
+  "name": "제동제어장치(BCU)",
+  "category": "제동·주행",
+  "car": "PC2",
+  "zone": "차체 하부",
+  "pos2d": {
+   "x": 190.2,
+   "y": 0.8
+  },
+  "pos3d": {
+   "x": 190.2,
+   "y": 0.8,
+   "z": 0.8
+  },
+  "dims": {
+   "l": 1,
+   "w": 0.7,
+   "h": 0.45
+  },
+  "manufacturer": "도담기공",
+  "model": "DD-BRK-700",
+  "installDate": "2020-03-21",
+  "status": "정상",
+  "lastInspection": "2026-07-18",
+  "description": "회생·공기 제동 블렌딩 및 활주 방지 제어"
+ },
+ {
+  "id": "PC2-AXL-01",
+  "code": "AXL",
+  "name": "차축온도센서(무선)",
+  "category": "제동·주행",
+  "car": "PC2",
+  "zone": "대차",
+  "pos2d": {
+   "x": 179.7,
+   "y": -0.8
+  },
+  "pos3d": {
+   "x": 179.7,
+   "y": 0.45,
+   "z": -0.8
+  },
+  "dims": {
+   "l": 0.2,
+   "w": 0.2,
+   "h": 0.2
+  },
+  "manufacturer": "도담기공",
+  "model": "DD-BRK-820",
+  "installDate": "2019-08-11",
+  "status": "정상",
+  "lastInspection": "2026-04-28",
+  "description": "베어링 온도 감시 BLE 무선 센서"
+ },
+ {
+  "id": "WAY-LTEBS-01",
+  "code": "LTEBS",
+  "name": "LTE-R 지상 기지국",
+  "category": "지상설비",
+  "car": "지상",
+  "zone": "선로변",
+  "pos2d": {
+   "x": 70,
+   "y": -3.2
+  },
+  "pos3d": {
+   "x": 70,
+   "y": 12,
+   "z": -14
+  },
+  "dims": {
+   "l": 1,
+   "w": 1,
+   "h": 1.4
+  },
+  "manufacturer": "국가철도망(가상)",
+  "model": "GND-920",
+  "installDate": "2020-04-03",
+  "status": "정상",
+  "lastInspection": "2026-07-20",
+  "description": "선로변 LTE-R eNB 기지국(가상). 관제센터와 연결"
+ },
+ {
+  "id": "WAY-BALISE-01",
+  "code": "BALISE",
+  "name": "지상 발리스",
+  "category": "지상설비",
+  "car": "지상",
+  "zone": "궤도",
+  "pos2d": {
+   "x": 1.6,
+   "y": 0
+  },
+  "pos3d": {
+   "x": 1.6,
+   "y": 0.03,
+   "z": 0
+  },
+  "dims": {
+   "l": 0.5,
+   "w": 0.4,
+   "h": 0.06
+  },
+  "manufacturer": "국가철도망(가상)",
+  "model": "GND-620",
+  "installDate": "2021-06-09",
+  "status": "정상",
+  "lastInspection": "2026-09-03",
+  "description": "궤도 중앙 설치 지상 발리스(위치·선행 정보 송신)"
+ }
+]

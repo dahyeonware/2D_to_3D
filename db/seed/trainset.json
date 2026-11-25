@@ -1,0 +1,157 @@
+{
+ "name": "KTX-산천 (가상 편성 0371)",
+ "drawingNo": "KTX-SC-EQ-0371-A",
+ "totalLength": 198.2,
+ "width": 2.9,
+ "height": 4,
+ "cars": [
+  {
+   "id": "PC1",
+   "name": "동력차",
+   "type": "PC",
+   "length": 22,
+   "start": 0,
+   "side": "front"
+  },
+  {
+   "id": "MC1",
+   "name": "동력객차",
+   "type": "MC",
+   "length": 21,
+   "start": 22,
+   "side": "front"
+  },
+  {
+   "id": "T1",
+   "name": "객차(특실)",
+   "type": "T",
+   "length": 18.7,
+   "start": 43,
+   "side": null
+  },
+  {
+   "id": "T2",
+   "name": "객차(일반실)",
+   "type": "T",
+   "length": 18.7,
+   "start": 61.7,
+   "side": null
+  },
+  {
+   "id": "T3",
+   "name": "객차(일반실)",
+   "type": "T",
+   "length": 18.7,
+   "start": 80.4,
+   "side": null
+  },
+  {
+   "id": "T4",
+   "name": "객차(일반실)",
+   "type": "T",
+   "length": 18.7,
+   "start": 99.1,
+   "side": null
+  },
+  {
+   "id": "T5",
+   "name": "객차(일반실)",
+   "type": "T",
+   "length": 18.7,
+   "start": 117.8,
+   "side": null
+  },
+  {
+   "id": "T6",
+   "name": "객차(일반실)",
+   "type": "T",
+   "length": 18.7,
+   "start": 136.5,
+   "side": null
+  },
+  {
+   "id": "MC2",
+   "name": "동력객차",
+   "type": "MC",
+   "length": 21,
+   "start": 155.2,
+   "side": "rear"
+  },
+  {
+   "id": "PC2",
+   "name": "동력차",
+   "type": "PC",
+   "length": 22,
+   "start": 176.2,
+   "side": "rear"
+  }
+ ],
+ "bogies": [
+  {
+   "x": 3.5,
+   "kind": "motor",
+   "car": "PC1"
+  },
+  {
+   "x": 18.5,
+   "kind": "motor",
+   "car": "PC1"
+  },
+  {
+   "x": 25,
+   "kind": "motor",
+   "car": "MC1"
+  },
+  {
+   "x": 173.2,
+   "kind": "motor",
+   "car": "MC2"
+  },
+  {
+   "x": 194.7,
+   "kind": "motor",
+   "car": "PC2"
+  },
+  {
+   "x": 179.7,
+   "kind": "motor",
+   "car": "PC2"
+  },
+  {
+   "x": 43,
+   "kind": "articulated",
+   "car": null
+  },
+  {
+   "x": 61.7,
+   "kind": "articulated",
+   "car": null
+  },
+  {
+   "x": 80.4,
+   "kind": "articulated",
+   "car": null
+  },
+  {
+   "x": 99.1,
+   "kind": "articulated",
+   "car": null
+  },
+  {
+   "x": 117.8,
+   "kind": "articulated",
+   "car": null
+  },
+  {
+   "x": 136.5,
+   "kind": "articulated",
+   "car": null
+  },
+  {
+   "x": 155.2,
+   "kind": "articulated",
+   "car": null
+  }
+ ],
+ "note": "공개 자료를 참고한 대략값 기반의 가상 데이터. 실제 차량 도면과 다름."
+}

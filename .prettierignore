@@ -1,0 +1,6 @@
+prototype/
+db/seed/
+web/dist/
+data/
+_kit/
+*.md
