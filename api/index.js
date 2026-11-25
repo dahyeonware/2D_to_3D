@@ -4,7 +4,8 @@ import { openDb } from '../server/src/db.js';
 import { createApp } from '../server/src/app.js';
 import { config } from '../server/src/config.js';
 
-if (!config.databaseUrl) throw new Error('DATABASE_URL 환경변수가 없습니다 (Vercel 프로젝트 설정 확인)');
+if (!/^postgres(ql)?:\/\//.test(config.databaseUrl))
+  throw new Error('DATABASE_URL 환경변수가 없거나 형식이 올바르지 않습니다 (Vercel 프로젝트 설정 확인)');
 const db = await openDb(config.databaseUrl);
 const app = createApp(db, { ...config, webDist: '/__no_static__' });
 

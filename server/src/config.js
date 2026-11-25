@@ -8,6 +8,9 @@ export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '
 dotenv.config({ path: path.join(ROOT, '.env'), quiet: true });
 
 const fromRoot = (p) => (path.isAbsolute(p) ? p : path.join(ROOT, p));
+// 환경변수 값 정리: 앞의 BOM(U+FEFF)·공백·줄바꿈 제거 (Windows 파이프로 등록하면 붙을 수 있음)
+const clean = (v) => (v == null ? '' : String(v).replace(new RegExp('^\uFEFF'), '').trim());
+for (const k of ['DATABASE_URL', 'ADMIN_KEY', 'DB_PATH', 'REALTIME', 'DEMO_MODE']) if (k in process.env) process.env[k] = clean(process.env[k]);
 
 export const config = {
   port: Number(process.env.PORT ?? 3000),

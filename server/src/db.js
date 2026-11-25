@@ -9,7 +9,10 @@ import { config } from './config.js';
 export const nowUtc = () => new Date().toISOString().replace('T', ' ').slice(0, 19);
 
 export async function openDb(target = config.databaseUrl || config.dbPath) {
-  return /^postgres(ql)?:\/\//.test(target) ? openPg(target) : openSqlite(target);
+  if (/^postgres(ql)?:\/\//.test(target)) return openPg(target);
+  // URL처럼 보이는데 postgres가 아니면 파일로 취급하지 않음 — 접속 정보가 오류 메시지·로그에 남지 않도록 값은 출력하지 않는다
+  if (target.includes('://')) throw new Error('DATABASE_URL 형식이 올바르지 않습니다 (postgresql:// 로 시작해야 함)');
+  return openSqlite(target);
 }
 
 /* ---------------- SQLite (better-sqlite3, 동기 → Promise 래핑) ---------------- */
