@@ -70,6 +70,35 @@ Playwright는 PC에 설치된 **Microsoft Edge**를 사용합니다(추가 다�
 
 오류 형식: `{ "error": { "code": "NOT_FOUND", "message": "..." } }`
 
+## 배포 (GitHub + Supabase + Vercel)
+
+| 구성 | 이름 / 주소 |
+|---|---|
+| GitHub | https://github.com/dahyeonware/2D_to_3D (Public) |
+| Supabase | 프로젝트 `2D_to_3D` (ref `calgxaxvejyqdwrcglou`, 서울 ap-northeast-2) — Postgres |
+| Vercel | 프로젝트 `2d_to_3d` (Vercel은 이름에 대문자 불가) → https://2dto3d-eta.vercel.app |
+
+구조: Vercel이 `web/dist`(정적)를 서빙하고, `/api/*`는 서버리스 함수(`api/index.js` → 같은 Express 앱)가 처리합니다.
+DB는 `DATABASE_URL`이 있으면 Postgres(Supabase 트랜잭션 풀러), 없으면 SQLite를 씁니다(같은 SQL, `server/src/db.js` 어댑터).
+
+- **쓰기 보호**: Vercel 환경변수 `ADMIN_KEY`가 설정되어 있어 저장할 때 관리 키를 묻습니다(탭을 닫을 때까지 기억). 조회는 누구나 가능.
+- **실시간 반영**: 서버리스에서는 SSE 대신 15초 폴링(`/api/trainsets/:id/live`).
+- **Supabase 보안**: 모든 테이블 RLS 활성화 + anon/authenticated 권한 회수 → Supabase 자동 REST API로는 읽기·쓰기 불가.
+- 비밀값(DB 비밀번호, `DATABASE_URL`, `ADMIN_KEY`)은 `.env.production.local`(git 제외)과 Vercel 환경변수에만 있습니다.
+
+다시 배포·관리하기:
+
+```bash
+# 스키마 변경 → 새 마이그레이션 파일 추가 후
+supabase db push --linked
+# 배포 DB를 시드 상태로 되돌리기 (DATABASE_URL 을 .env.production.local 값으로 지정)
+DATABASE_URL=... npm run db:reset
+# 프로덕션 배포
+vercel deploy --prod
+```
+
+GitHub push 시 자동 배포를 쓰려면 Vercel GitHub 앱에 이 저장소 접근을 허용한 뒤 `vercel git connect`를 실행하세요.
+
 ## 구현 범위
 
 **P0 (1차 완료 조건) — 완료**
